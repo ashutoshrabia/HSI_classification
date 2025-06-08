@@ -19,4 +19,5 @@ I = hyperConvert3d(I2d, m, n, z);
 [X_train, X_test, X_train_P, X_test_P, Y_train, Y_test] = TR_TE_Generation2d_CNN(I, TR_map, TE_map, 3);
  
 save('C:\Users\ashut\vyomchara\GCN/X_test.mat','X_test');
+save('C:\Users\ashut\vyomchara\GCN/X_test.mat','X_train');
 
