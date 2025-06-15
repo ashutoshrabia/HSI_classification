@@ -1,13 +1,10 @@
 import sys
-sys.path.append("/kaggle/input/fu-net/FuNET-C")
-
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
 import scipy.io as scio 
 from tf_utils import random_mini_batches_GCN1, convert_to_one_hot
 
-# FORCE TF 1.x GRAPH/SESSION BEHAVIOR UNDER TF 2.x (DISABLE EAGER)
 
 tf.compat.v1.disable_eager_execution()
 
