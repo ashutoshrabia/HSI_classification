@@ -26,7 +26,7 @@ sample = scio.loadmat('Test_X.mat')
 X_test  = sample['Test_X']   
 test_g  = sample['Test_X']    
 
-X_train_mat = scio.loadmat('X_train.mat')  # first ensure you have X_train.py from 2DCNN_DataPreparation.m
+X_train_mat = scio.loadmat('X_train.mat')  # first ensure you have X_train.mat from 2DCNN_DataPreparation.m
 Train_X = X_train_mat['Train_X']   
 _, n_x1 = sample['Test_X'].shape   
 _, n_x  = Train_X.shape
